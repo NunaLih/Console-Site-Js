@@ -1,0 +1,73 @@
+/*  */
+
+@keyframes glitch2 {
+	0%,
+	100% {
+		text-shadow: -2.5px -2.5px 0 #c1b492, 2.5px 2.5px 0 #d2738a;
+	}
+	25% {
+		text-shadow: 2.5px 2.5px 0 #c1b492, -2.5px -2.5px 0 #d2738a;
+	}
+	50% {
+		text-shadow: 2.5px -2.5px 0 #c1b492, -2.5px 2.5px 0 #d2738a;
+	}
+	75% {
+		text-shadow: 2.5px 2.5px 0 #c1b492, 2.5px -2.5px 0 #d2738a;
+	}
+}
+
+@keyframes opacityX {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes glitch {
+	0% {
+		color: white;
+		transform: translateX(0) translateY(0%);
+	}
+	25% {
+		color: #d2738a;
+		transform: translateX(1px) translateY(1px);
+	}
+	40% {
+		color: #e74c3c;
+		transform: translateX(-2px) translateY(-2px);
+	}
+	50% {
+		color: #cccccc;
+		transform: translateX(0) translateY(0);
+	}
+	80% {
+		color: #d2738a;
+		transform: translateX(2px) translateY(2px);
+	}
+	90% {
+		color: #e74c3c;
+		transform: translateX(-1px) translateY(-1px);
+	}
+	100% {
+		color: white;
+		transform: translateX(0) translateY(0);
+	}
+}
+
+/*  */
+
+@keyframes customAni {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

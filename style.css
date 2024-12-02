@@ -1,0 +1,135 @@
+@import url('keyframeGlitch.css');
+
+.press-start-2p-regular {
+	font-family: 'Press Start 2P', system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.console {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	/* text-align: center; */
+	overflow: hidden;
+}
+
+.container span {
+	color: white;
+	font-family: 'Press Start 2P';
+	font-size: 10px;
+}
+
+.span1 {
+	color: white;
+	font-family: 'Press Start 2P';
+	font-size: 10px;
+	opacity: 0.8;
+	margin-top: 60px;
+	animation: opacityX 4s ease-in forwards;
+}
+
+.box-comand span {
+	color: white;
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	margin-top: 5px;
+	flex-direction: column;
+	display: flex;
+}
+
+textarea {
+	font-family: 'Press Start 2P';
+	/* width: calc(100% - 1900px); */
+	height: 10px;
+	font-size: 10px;
+	color: white;
+	margin-top: 20px;
+	border: none;
+	background: none;
+	resize: none;
+	opacity: 0.8;
+	caret-color: #d2738a;
+}
+
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+
+/* .action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+.main-text {
+	color: white;
+	margin-bottom: 40px;
+	animation: glitch 0.2s linear infinite, opacityX 5s ease-in forwards;
+}
+
+.white {
+	animation: glitch 0.8s linear infinite, opacityX 4s ease-in forwards;
+}
+
+.box-cont {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.box-cont span {
+	margin-top: 18px;
+}
+.box-cont2 span {
+	padding-top: 15px;
+}
+
+.box-cont3 {
+	animation: glitch2 3s linear infinite, opacityX 1s ease-in forwards;
+	padding-top: 15px;
+}
+.box-cont3 span {
+	font-size: 15px;
+}
+
+.box-cont4 {
+	animation: glitchSSS 1s linear infinite;
+	padding-top: 15px;
+}
+
+.action23 {
+	padding-top: 15px;
+}
+
+.box-cont5 {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.box-cont5 a {
+	margin-bottom: 10px;
+	text-decoration: none;
+	animation: glitch2 3s linear infinite, opacityX 1s ease-in forwards;
+}
+
+.glitchXXX {
+	animation: glitch 0.2s linear infinite, opacityX 2s ease-in forwards;
+	padding-top: 15px;
+}
+
+.box-cont7 span {
+	color: #d2738a;
+	opacity: 0.8;
+	padding-top: 20px;
+}
